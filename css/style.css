@@ -1,0 +1,61 @@
+/* Centered Navigation List at the Top */
+nav {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  text-decoration: underline overline;
+  display: inline-block;
+}
+
+/* Side Navigation Bar on the Right */
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  padding: 15px 0;
+}
+
+aside ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  display: block;
+  padding: 10px 20px;
+}
